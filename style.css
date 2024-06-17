@@ -1,0 +1,58 @@
+/*## Colors
+
+- White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%)
+
+ Font size (paragraph): 15px
+
+### Font
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 400, 700
+*/
+@import url(https://fonts.googleapis.com/css?family=Outfit:100,200,300,regular,500,600,700,800,900);
+body{
+    font-family: 'Outfit',sans-serif;
+    font-size: 15px;
+    background-color:hsl(212, 45%, 89%) ;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.qrcode-container{
+    width:320px;
+    margin: 20px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 15px;
+    border-radius: 20px;
+}
+img{
+    width: 100%;
+}
+#qrcode-image img{
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+.qr-text{
+    padding: 1rem 1rem;
+    margin-bottom: 1.5rem;
+}
+#header{
+    color: hsl(219, 22%, 26%);
+    font-size: 1.5rem;
+    margin-bottom:1rem ;
+}
+#text{
+    color: hsl(220, 15%, 55%);
+    font-size: 17px;
+}
